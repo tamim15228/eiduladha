@@ -42,7 +42,7 @@ norm = BoundaryNorm(range(len(category_order)+1), cmap.N)
 
 fig, ax = plt.subplots(figsize=(18, 10))
 
-# Plot without borders
+
 merged_gdf.plot(
    column=merged_gdf['Category'].map({k: i for i, k in enumerate(category_order)}),
    cmap=cmap,
