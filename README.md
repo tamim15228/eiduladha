@@ -75,5 +75,5 @@ cbar.ax.set_yticklabels(category_order, fontsize=10)
 cbar.set_label("Qurbani Category", fontsize=12)
 
 plt.tight_layout()
-plt.savefig("qurbani_world_map_2023_no_medium.png", dpi=300)
-print("Map saved as qurbani_world_map_2023_no_medium.png")
+plt.savefig("qurbani_world_map_medium.png", dpi=300)
+print("Map saved as qurbani_world_map_medium.png")
